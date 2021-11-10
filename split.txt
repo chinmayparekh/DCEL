@@ -1,0 +1,5 @@
+Split 2 3
+Split 4 6
+Id: 1 2 5
+Id: 2 6 3
+Id: 3 4 2
