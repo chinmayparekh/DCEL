@@ -1,4 +1,11 @@
+The doubly connected edge list (DCEL), also known as half-edge data structure, is a data structure to represent an
+embedding of a planar graph in the plane, and polytopes in 3D. This data structure provides efficient[quantify]
+manipulation of the topological information associated with the objects in question (vertices, edges, faces). It is
+used in many algorithms of computational geometry to handle polygonal subdivisions of the plane, commonly
+called planar straight-line graphs (PSLG). For example, a Voronoi diagram is commonly represented by a DCEL
+inside a bounding box.
 
+Convention:
 Edges are printed in clockwise direction.
 In certain cases when the incident edge's face changes,the old face's incident edge becomes equal to that of the newly created split edge.
 Multiple splits are handled.
